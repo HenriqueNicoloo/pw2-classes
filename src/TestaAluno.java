@@ -16,6 +16,15 @@ public class TestaAluno {
 		
 		System.out.println(referencia.nome + " " + referencia.rg + " " + referencia.dataNascimento);
 		System.out.println(referencia2.nome + " " + referencia2.rg + " " + referencia2.dataNascimento);
+		
+		
+		Turma aluno = new Turma();
+		aluno.periodo = "Manhã";
+		aluno.serie = "Segundo ano de informática";
+		aluno.sigla = "2ºAI";
+		aluno.tipo = "Ensino médio";
+		
+		System.out.println(aluno.periodo + ", " + aluno.serie + ", " + aluno.sigla + ", " + aluno.tipo);
 	}
 
 }
