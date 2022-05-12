@@ -11,7 +11,14 @@ public class TestaFuncionario {
 		
 		System.out.println(aluno.nome + " " + aluno.rg + " " + aluno.dataNascimento);
 		
+		Endereco funcionario = new Endereco();
+		funcionario.bairro = "Vila Augusta";
+		funcionario.cidade = "Guarulhos";
+		funcionario.estado = "Maldivas";
+		funcionario.número = "552175";
+		funcionario.logradouro = "Nº 60";
 		
+		System.out.println(funcionario.bairro + ", " + funcionario.cidade + ", " + funcionario.estado + ", " + funcionario.número + ", " + funcionario.logradouro);
 	}
 
 }
